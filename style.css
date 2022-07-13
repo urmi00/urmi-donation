@@ -1,0 +1,117 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.bg-image{
+    background-image: url(images/donation1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+    height: 100vh;
+    background-image:linear-gradient(rgba(128, 128, 128, 0.518));
+      background-position: center;
+      width: 100%;
+    
+}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 150px;
+}
+.paragraph{
+    font-size: 20px;
+    font-weight: 200px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.btn{
+    color: white;
+    background-color: tomato;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    width: 120px;
+    padding: 10px 15px;
+    margin: auto;
+    display: block;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 30%;
+    padding-right: 2%;
+}
+.m-button{
+    width: 200px;
+    height: 30px;
+    background-color: tomato;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.margin{
+    margin: 0;
+    padding: 0;
+}
+.donate-today{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.amount-box{display: block;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 50px;
+    width: 80%;
+}
+.box{
+    width: 15%;
+    height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px 10px;
+    background-color: wheat;
+    color: grey;
+    display: block;
+    font-size: 30px;
+    font-weight:900;
+}
+.flexiable-box{
+    display:flex;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-top: 40px;
+}
+.boxes{
+    height: 240px;
+    width: 30%;
+    background-color: wheat;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: left;
+    padding: 30px 10px;
+    margin: 15px;
+}
+footer{
+    margin-top: 65px;
+    text-align: center;
+    background-color: black;
+}
+footer h2{
+    color: red;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+footer p{
+    color: white;
+    padding-bottom: 40px;
+
+}
